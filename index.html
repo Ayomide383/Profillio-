@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayomide Taiwo | Web Developer & Designer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0a3d62;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .project-box {
+      background: #ecf0f1;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #dcdde1;
+      margin-top: 2rem;
+    }
+    .contact-btn {
+      display: inline-block;
+      background: #0a3d62;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+    .slider-wrapper {
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.slider {
+  display: flex;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 250px;
+  scroll-snap-align: start;
+  background: #ecf0f1;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 8px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ayomide Taiwo</h1>
+    <p>Web Developer | Flyer Designer | Frontend Learner</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! I'm Ayomide, a beginner frontend developer and creative designer passionate about building clean, simple websites and eye-catching designs. I’m currently focused on HTML, CSS, JavaScript, and graphic design using Canva.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Canva Design</li>
+      <li>Flyer and Poster Design</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-box">
+        <h3>Landing Page</h3>
+        <p>A responsive HTML/CSS landing page for a small business.</p>
+      </div>
+      <div class="project-box">
+        <h3>Flyer Design</h3>
+        <p>Modern and clean promotional flyer made in Canva for an event.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+  <h2>Design Gallery</h2>
+  <div class="slider-wrapper">
+    <div class="slider">
+      <div class="slide">
+        <img src="img/img1.jpg" alt="Laundry Service Flyer">
+        <p>Laundry Service Flyer</p>
+      </div>
+      <div class="slide">
+         <img src="img/img3.jpg" alt="Laundry Service Flyer">
+        <p>Laundry Service Flyer</p>
+      </div>
+      <div class="slide">
+        <img src="img/img2.jpg" alt="Laundry Service Flyer">
+        <p>Laundry Service Flyer</p>
+      </div>
+        
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <p>Interested in working with me or have a project idea? Let’s talk!</p>
+    <a class="contact-btn" href="https://wa.me/2348109434666" target="_blank">Message Me on WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Ayomide Taiwo. All rights reserved.
+  </footer>
+</body>
+</html>
